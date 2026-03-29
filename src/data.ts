@@ -378,21 +378,21 @@ export const EXAM_DATA: Part[] = [
           { 
             id: 4, 
             text: "Has always been excited by having people watching their acting? (luôn cảm thấy phấn khích khi có người xem mình diễn xuất?)", 
-            answer: "D", 
+            answer: "B", 
             hints: [
               "Tìm thông tin về cảm xúc khi đứng trước khán giả.",
               "Chú ý đến các từ như 'audience', 'crowd' hoặc 'performance'.",
-              "Đoạn D thừa nhận rằng họ yêu thích cảm giác được chú ý từ khi còn nhỏ."
+              "Đoạn B thừa nhận rằng họ yêu thích cảm giác được chú ý từ khi còn nhỏ."
             ]
           },
           { 
             id: 5, 
             text: "Had planned to enter a different profession before training to become an actor? (đã lên kế hoạch theo đuổi một nghề nghiệp khác trước khi được đào tạo thành diễn viên?)", 
-            answer: "B", 
+            answer: "C", 
             hints: [
               "Tìm đoạn văn nói về một ước mơ hoặc kế hoạch nghề nghiệp cũ.",
               "Đoạn văn có thể nhắc đến một ngành học khác như luật, y hoặc kinh tế.",
-              "Đoạn B tiết lộ rằng ban đầu họ định trở thành một giáo viên trước khi rẽ hướng."
+              "Đoạn C tiết lộ rằng ban đầu họ định trở thành một giáo viên trước khi rẽ hướng."
             ]
           },
           { 
@@ -408,11 +408,11 @@ export const EXAM_DATA: Part[] = [
           { 
             id: 7, 
             text: "Did not want to work outside the theatre initially? (ban đầu không muốn làm việc ngoài môi trường sân khấu kịch?)", 
-            answer: "C", 
+            answer: "A", 
             hints: [
               "Tìm thông tin về sự thay đổi quan điểm đối với truyền hình hoặc điện ảnh.",
               "Đoạn văn có thể nhắc đến sự 'thuần khiết' của sân khấu.",
-              "Đoạn C thừa nhận lúc đầu họ từng coi thường việc đóng phim quảng cáo hay TV."
+              "Đoạn A thừa nhận lúc đầu họ từng coi thường việc đóng phim quảng cáo hay TV."
             ]
           },
           { 
@@ -428,21 +428,21 @@ export const EXAM_DATA: Part[] = [
           { 
             id: 9, 
             text: "Originally tried to train as an actor somewhere else? (ban đầu đã cố gắng để được đào tạo diễn xuất ở một nơi khác?)", 
-            answer: "A", 
+            answer: "D", 
             hints: [
               "Tìm thông tin về việc bị từ chối bởi một trường nghệ thuật khác.",
               "Đoạn văn nhắc đến nỗ lực đầu tiên không thành công.",
-              "Đoạn A kể về việc không trúng tuyển vào trường kịch ở London trước khi học ở đây."
+              "Đoạn D kể về việc không trúng tuyển vào trường kịch ở London trước khi học ở đây."
             ]
           },
           { 
             id: 10, 
             text: "Wasn’t so interested in acting in the theatre initially? (ban đầu không mấy hứng thú với việc diễn xuất trên sân khấu kịch?)", 
-            answer: "D", 
+            answer: "B", 
             hints: [
               "Tìm đoạn văn nói về niềm đam mê ban đầu dành cho phim ảnh hơn là kịch.",
               "Đoạn văn mô tả sự thay đổi sở thích sau này.",
-              "Đoạn D nói rằng lúc đầu họ chỉ muốn trở thành ngôi sao điện ảnh."
+              "Đoạn B nói rằng lúc đầu họ chỉ muốn trở thành ngôi sao điện ảnh."
             ]
           },
         ]
