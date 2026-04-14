@@ -263,8 +263,8 @@ const ExerciseCard: React.FC<{ exercise: Exercise, onComplete: (id: string, scor
                 </span>
               )}
               {!showResults && showAllAnswers && (
-                <span className="absolute -bottom-7 left-0 bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300 text-[10px] px-2 py-0.5 rounded-full font-bold border border-amber-200 dark:border-amber-800/50 shadow-sm z-10">
-                  {q.answer}
+                <span className="absolute -bottom-7 left-0 bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300 text-[10px] px-2 py-0.5 rounded-full font-bold border border-amber-200 dark:border-amber-800/50 shadow-sm z-10 whitespace-nowrap">
+                  {q.hint || q.answer}
                 </span>
               )}
             </span>
@@ -292,8 +292,8 @@ const ExerciseCard: React.FC<{ exercise: Exercise, onComplete: (id: string, scor
                 </span>
               )}
               {!showResults && showAllAnswers && (
-                <span className="absolute -bottom-7 left-0 bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300 text-[10px] px-2 py-0.5 rounded-full font-bold border border-amber-200 dark:border-amber-800/50 shadow-sm z-10">
-                  {q.answer}
+                <span className="absolute -bottom-7 left-0 bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300 text-[10px] px-2 py-0.5 rounded-full font-bold border border-amber-200 dark:border-amber-800/50 shadow-sm z-10 whitespace-nowrap">
+                  {q.hint || q.answer}
                 </span>
               )}
             </span>
@@ -515,7 +515,7 @@ const ExerciseCard: React.FC<{ exercise: Exercise, onComplete: (id: string, scor
               <CheckCircle2 className="w-5 h-5" />
               Kiểm tra kết quả
             </button>
-            {(exercise.type === 'part2' || exercise.type === 'part3') && (
+            {(exercise.type === 'part1' || exercise.type === 'part2' || exercise.type === 'part3') && (
               <button
                 onClick={() => setShowAllAnswers(!showAllAnswers)}
                 disabled={showResults}
