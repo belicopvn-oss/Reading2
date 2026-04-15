@@ -162,7 +162,7 @@ export const EXAM_DATA: Part[] = [
         id: "2.4",
         title: "Shopping online versus shopping locally",
         type: "part2",
-        passage: "Most people want a busy shopping street (0) in their town with butchers, bookshops, boutiques, cafés and restaurants, which makes {{gap:1}} depressing to see so {{gap:2}} shops becoming vacant. Experts predict that {{gap:3}} to 40% of shops will be forced to close in the next five years. No one wants to see their high-street shops disappear, {{gap:4}} why would people want to shop locally? Internet shopping sites offer discount prices along with 24/7 shopping and deliveries. {{gap:5}} to a recent report, some products, {{gap:6}} as toys, are as much as 60% cheaper online. Local shops should be more like clubs {{gap:7}} provide personal service and social relationships, and each shop should be seen {{gap:8}} something unique. To meet this need, in some parts of {{gap:9}} world shops shut for hours during the day, then do excellent business in the evening, when they aim to give customers a {{gap:10}} satisfying experience than they would ever have from shopping online.",
+        passage: "Most people want a busy shopping street (0) in their town with butchers, bookshops, boutiques, cafés and restaurants, which makes {{gap:1}} depressing to see so {{gap:2}} shops becoming vacant. Experts predict that {{gap:3}} to 40% of shops will be forced to close in the next five years. No one wants to see their high-street shops disappear, {{gap:4}} why would people want to shop locally? Internet shopping sites offer discount prices along with 24/7 shopping and deliveries. {{gap:5}} to a recent report, some products, {{gap:6}} as toys, are as much as 60% cheaper online. Local shops should be more like clubs {{gap:7}} provide personal service and social relationships, and each shop should be seen {{gap:8}} something unique. To meet this need, in some parts of {{gap:9}} world shops shut for hours during the day, then do excellent business in {{gap:11}} evening, when they aim to give customers a {{gap:10}} satisfying experience than they would ever have from shopping online.",
         questions: [
           { id: 1, answer: "it" },
           { id: 2, answer: "many" },
@@ -173,6 +173,7 @@ export const EXAM_DATA: Part[] = [
           { id: 7, answer: "which" },
           { id: 8, answer: "as" },
           { id: 9, answer: "the" },
+          { id: 11, answer: "the" },
           { id: 10, answer: "more" },
         ]
       }
@@ -211,7 +212,7 @@ export const EXAM_DATA: Part[] = [
           { id: 23, answer: "recent" },
           { id: 24, answer: "who" },
           { id: 25, answer: "focusing" },
-          { id: 26, answer: "audience" },
+          { id: 26, answer: "public" },
           { id: 27, answer: "announced" },
           { id: 28, answer: "effectively" },
           { id: 29, answer: "earn" },
